@@ -7,7 +7,6 @@ class Image
 
 	def output_image
 
-		copy = []
 		copy = Marshal.load( Marshal.dump(image) )
 		
 		image.each_with_index do |row, row_index|
